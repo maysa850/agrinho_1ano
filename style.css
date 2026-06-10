@@ -1,0 +1,106 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f7f6; /* Branco suave */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Cabeçalho com imagem de fundo (Florestas e Plantação) */
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://unsplash.com') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #a8e6cf; /* Verde claro */
+}
+
+/* Seção principal */
+.conteudo-principal {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.conteudo-principal h2 {
+    color: #2b7a78; /* Verde escuro */
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.conteudo-principal p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    color: #555;
+}
+
+/* Botão interativo */
+#btn-curiosidades {
+    background-color: #2b7a78;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btn-curiosidades:hover {
+    background-color: #1a5a58;
+}
+
+/* Área de curiosidades */
+#area-curiosidades {
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #e3f2fd;
+    border-left: 6px solid #2b7a78;
+    border-radius: 4px;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oculto {
+    display: none;
+}
+
+#area-curiosidades h3 {
+    color: #2b7a78;
+    margin-bottom: 15px;
+}
+
+#lista-curiosidades li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Rodapé */
+footer {
+    background-color: #2b7a78;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
