@@ -1,1 +1,3 @@
-# agrinho_1ano
+Este site é sobre o Agronegócio Sustentável e a coexistência harmoniosa entre a produção de alimentos e a preservação ambiental.Ele foi desenhado para transmitir a mensagem de que o campo pode ser altamente produtivo e tecnológico sem destruir os recursos naturais.
+O funcionamento do código é simples, direto e acontece em quatro etapas:Carregamento Visual: O navegador lê o arquivo CSS e aplica o degradê verde e a foto de plantação no topo da página.Armazenamento de Dados: Dentro do arquivo JavaScript, existe uma lista (array) com quatro curiosidades sustentáveis salvas.Clique do Usuário: Quando alguém clica no botão "Saiba Mais", o JavaScript intercepta esse clique imediatamente.Sorteio Aleatório: O código escolhe uma frase da lista ao acaso e a exibe na tela dentro de um quadro estilizado.
+Foi utilizando a AI do google para o projeto, houve algumas modificações nos códigos para enviar.
